@@ -1,0 +1,24 @@
+<div class="hero-unit">
+    <h1><?php echo sprintf($this->translate('Welcome to %sCD/DVD%s catalog'), '<span class="zf-green">', '</span>') ?></h1>
+</div>
+
+<div class="row">
+
+    <div class="span4">
+        <h2><?php echo $this->translate('Browse your musical albums') ?></h2>
+        <p><?php echo $this->translate('Keep your CD albums in order with this great database, which allows you to save, modify and update albums as you need.') ?></p>
+        <p><a class="btn btn-success" href="http://framework.zend.com/zf2" target="_blank"><?php echo $this->translate('Browse your music') ?> &raquo;</a></p>
+    </div>
+
+    <div class="span4">
+        <h2><?php echo $this->translate('Browse your movies') ?></h2>
+        <p><?php echo $this->translate('Have bunch of movies on DVD and Blueray but never seem to be able to find them? Keep track of your movies here!') ?></p>
+        <p><a class="btn btn-success" href="http://modules.zendframework.com/" target="_blank"><?php echo $this->translate('Browse your movies') ?> &raquo;</a></p>
+   </div>
+
+   <div class="span4">
+       <h2><?php echo $this->translate('Help &amp; Support') ?></h2>
+       <p><?php echo sprintf($this->translate('If you need any help or support while developing with Zend Framework 2, you may reach the development team via IRC: %s#zftalk.2 on Freenode%s. They would love to hear any questions or feedback you may have regarding the framework. Alternatively, you may subscribe and post questions to the %smailing lists%s.'), '<a href="irc://irc.freenode.net/zftalk.2">', '</a>', '<a href="http://framework.zend.com/wiki/display/ZFDEV/Mailing+Lists">', '</a>') ?></p>
+       <p><a class="btn btn-success" href="http://webchat.freenode.net?channels=zftalk.2" target="_blank"><?php echo $this->translate('Ping them on IRC') ?> &raquo;</a></p>
+   </div>
+</div>

@@ -1,0 +1,27 @@
+<?php 
+$title = 'My Movies';
+$this->headTitle($title);
+?>
+<h1><?php echo $this->escapeHtml($title); ?></h1>
+<p class="options"><a href="<?php echo $this->url('dvd', array( 
+        'action'=>'add'));?>">&raquo; Add new movie</a></p>
+
+<table class="table">
+<tr>
+    <th>Number</th>
+    <th>Title</th>
+    <th>&nbsp;</th>
+</tr>
+<?php foreach($dvds as $dvd) : ?>
+<tr>
+    <td><?php echo $this->escapeHtml($dvd->number);?></td>
+    <td><?php echo $this->escapeHtml($dvd->title);?></td>
+    <td>
+        <a href="<?php echo $this->url('dvd',
+            array('action'=>'edit', 'id' => $dvd->id));?>">Edit</a><br/>
+        <a href="<?php echo $this->url('dvd',
+            array('action'=>'delete', 'id' => $dvd->id));?>">Delete</a>
+    </td>
+</tr>
+<?php endforeach; ?>
+</table>
