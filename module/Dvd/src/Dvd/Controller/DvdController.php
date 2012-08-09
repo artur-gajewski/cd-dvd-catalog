@@ -5,7 +5,7 @@ namespace Dvd\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-use Dvd\Entity\Album;
+use Dvd\Entity\Dvd;
 use Dvd\Form\DvdForm;
 use Doctrine\ORM\EntityManager;
 

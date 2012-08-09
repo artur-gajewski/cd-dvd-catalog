@@ -50,6 +50,24 @@ return array(
 You can add more connections by adding additional keys to the `connection` and specifying your parameters.
 
 
+#### Database creation
+
+CREATE TABLE album (
+  id int(11) NOT NULL auto_increment,
+  number int(11),
+  artist varchar(100) NOT NULL,
+  title varchar(100) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE dvd (
+  id int(11) NOT NULL auto_increment,
+  number int(11),
+  title varchar(100) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+
 ## Doctrine 2 Usage in Zend Framework 2 application
 
 #### Registered Services
