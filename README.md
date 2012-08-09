@@ -52,6 +52,8 @@ You can add more connections by adding additional keys to the `connection` and s
 
 #### Database creation
 
+Create a new database and run the following queries in order to generate two tables required:
+
 CREATE TABLE album (
   id int(11) NOT NULL auto_increment,
   number int(11),
