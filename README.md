@@ -6,7 +6,11 @@ See [https://github.com/artur-gajewski/cd-dvd-catalog](https://github.com/artur-
 
 This package provided to you by Artur Gajewski
 
-Thanks to Rob Allen for great ZF2 tutorial which this application is based on and Jason Grimes for his instructions on applying Doctrine 2 to Rob's tutorial.
+Thanks to Rob Allen for great ZF2 tutorial which this application is based on, and to Jason Grimes for his instructions on applying Doctrine 2 to Rob's tutorial.
+
+[Rob Allen's Blog](http://www.akrabat.com)
+
+[Jason Grimes' Blog](http://www.jasongrimes.org)
 
 ## Dependancy installation
 
