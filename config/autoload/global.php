@@ -24,9 +24,9 @@ return array(
                 'params' => array(
                     'host'     => 'localhost',
                     'port'     => '3306',
-                    'user'     => 'root',
-                    'password' => '',
-                    'dbname'   => 'arturnmd_catalog',
+                    'user'     => 'username',
+                    'password' => 'password',
+                    'dbname'   => 'database_name',
                 )
             )
         )
