@@ -2,8 +2,10 @@
 return array(
     'modules' => array(
         'Application',
-        'DoctrineModule',
+        
+        'DoctrineModule', 
         'DoctrineORMModule',
+        
         'Album',
         'Dvd',
     ),

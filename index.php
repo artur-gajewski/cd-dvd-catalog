@@ -5,8 +5,8 @@
  */
 
 // Override server's settings
-// error_reporting(E_ALL);
-// ini_set('display_errors','On');
+ error_reporting(E_ALL);
+ ini_set('display_errors','On');
 
 // Setup autoloading
 include 'init_autoloader.php';

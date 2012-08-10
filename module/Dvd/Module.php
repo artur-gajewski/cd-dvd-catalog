@@ -19,19 +19,6 @@ class Module
             ),
         );
     }
-    
-    public function getServiceConfig()
-    {
-        return array(
-            'factories' => array(
-                'Dvd\Model\DvdTable' =>  function($sm) {
-                    $dbAdapter = $sm->get('Zend\Db\Adapter\Adapter');
-                    $table = new DvdTable($dbAdapter);
-                    return $table;
-                },
-            ),
-        );
-    }    
 
     public function getConfig()
     {
